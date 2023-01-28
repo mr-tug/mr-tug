@@ -7,6 +7,7 @@
         body {
             background-color: #fca;
             display: grid;
+            font-family: sans-serif;
             grid-template-rows: auto 1fr auto;
             height: 100%;
             margin: 0;
@@ -16,6 +17,10 @@
         button {
             height: 75px;
             width: 200px;
+        }
+        div {
+            line-height: normal;
+            vertical-align: middle;
         }
         footer {
             background-color: #fca;
@@ -58,11 +63,22 @@
         }
         .link-bar-link {
             color: blue;
-            display: inline;
+            display: inline-block;
             font-size: 1.4rem;
             padding-right: 5px;
-            vertical-align: middle;
             white-space: nowrap;
+        }
+        .link-box {
+            background-color: rgba(0,0,255,0.05);
+            /* background-color: rgba(255,204,170,0.2); */
+            border: solid #aaa 1px;
+            border-radius: 4px;
+            height: 60px;
+            line-height: 60px;
+            width: 180px;
+        }
+        .link-box:hover {
+            background-color: rgba(255,0,0,0.15);
         }
         .link-text {
             text-decoration: none;
@@ -131,25 +147,25 @@
             <div class='section-title'>Social Media</div>
             <div>
                 <a class='link-text' href='https://www.facebook.com'>
-                    <button class='link-bar-link'>
+                    <div class='link-bar-link link-box'>
                         <img alt='Facebook logo' class='social-icon' src='static/facebook-50.png'>Facebook
-                    </button>
+                    </div>
                 </a>
             </div>
             <br>
             <div>
                 <a class='link-text' href='https://www.youtube.com'>
-                    <button class='link-bar-link'>
+                    <div class='link-bar-link link-box'>
                         <img alt='YouTube logo' class='social-icon' src='static/youtube-50.png'>YouTube
-                    </button>
+                    </div>
                 </a>
             </div>
             <br>
             <div>
                 <a class='link-text' href='https://www.instagram.com'>
-                    <button class='link-bar-link'>
+                    <div class='link-bar-link link-box'>
                         <img alt='Instagram logo' class='social-icon' src='static/instagram-50.png'>Instagram
-                    </button>
+                    </div>
                 </a>
             </div>
         </div>
@@ -160,41 +176,41 @@
             <div class='section-title'>Email</div>
             <div>
                 <a class='link-text' href='https://www.gmail.com'>
-                    <button class='link-bar-link'>
+                    <div class='link-bar-link link-box'>
                         <img alt='Gmail logo' class='social-icon' src='static/gmail-50.png'>Gmail
-                    </button>
+                    </div>
                 </a>
             </div>
             <br>
             <div>
                 <a class='link-text' href='https://outlook.live.com/mail'>
-                    <button class='link-bar-link'>
+                    <div class='link-bar-link link-box'>
                         <img alt='Outlook logo' class='social-icon' src='static/outlook-50.png'>Outlook <sup>*</sup>
-                    </button>
+                    </div>
                 </a>
             </div>
             <br>
             <div>
                 <a class='link-text' href='https://mail.aol.com'>
-                    <button class='link-bar-link'>
+                    <div class='link-bar-link link-box'>
                         <img alt='AOL logo' class='social-icon' src='static/aol-50.png'>AOL
-                    </button>
+                    </div>
                 </a>
             </div>
             <br>
             <div>
                 <a class='link-text' href='https://mail.yahoo.com'>
-                    <button class='link-bar-link'>
+                    <div class='link-bar-link link-box'>
                         <img alt='Yahoo logo' class='social-icon' src='static/yahoo-50.png'>Yahoo!
-                    </button>
+                    </div>
                 </a>
             </div>
             <br>
             <div>
                 <a class='link-text' href='https://webmail.shaw.ca'>
-                    <button class='link-bar-link'>
+                    <div class='link-bar-link link-box'>
                         <img alt='Shaw logo' class='social-icon' src='static/shaw-50.png'>Shaw
-                    </button>
+                    </div>
                 </a>
             </div>
         </div>
@@ -205,25 +221,25 @@
             <div class='section-title'>Search</div>
             <div>
                 <a class='link-text' href='https://www.google.com'>
-                    <button class='link-bar-link'>
+                    <div class='link-bar-link link-box'>
                         <img alt='Google logo' class='social-icon' src='static/google-50.png'>Google
-                    </button>
+                    </div>
                 </a>
             </div>
             <br>
             <div>
                 <a class='link-text' href='https://www.bing.com'>
-                    <button class='link-bar-link'>
+                    <div class='link-bar-link link-box'>
                         <img alt='Microsoft logo' class='social-icon' src='static/microsoft-50.png'>Bing
-                    </button>
+                    </div>
                 </a>
             </div>
             <br>
             <div>
                 <a class='link-text' href='https://www.duckduckgo.com'>
-                    <button class='link-bar-link'>
+                    <div class='link-bar-link link-box'>
                         <img alt='DuckDuckGo logo' class='social-icon' src='static/duckduckgo-50.png'>DuckDuckGo
-                    </button>
+                    </div>
                 </a>
             </div>
         </div>
@@ -234,25 +250,25 @@
             <div class='section-title'>Users Group</div>
             <div>
                 <a class='link-text' href='#'>
-                    <button class='link-bar-link'>
+                    <div class='link-bar-link link-box'>
                         <img alt='Mesa Regal logo' class='social-icon' src='static/mr-logo-50.png'>User Guides
-                    </button>
+                    </div>
                 </a>
             </div>
             <br>
             <div>
                 <a class='link-text' href='#'>
-                    <button class='link-bar-link'>
+                    <div class='link-bar-link link-box'>
                         <img alt='Mesa Regal logo' class='social-icon' src='static/mr-logo-50.png'>Meetings
-                    </button>
+                    </div>
                 </a>
             </div>
             <br>
             <div>
                 <a class='link-text' href='#'>
-                    <button class='link-bar-link'>
+                    <div class='link-bar-link link-box'>
                         <img alt='Mesa Regal logo' class='social-icon' src='static/mr-logo-50.png'>TUG Info
-                    </button>
+                    </div>
                 </a>
             </div>
         </div>
