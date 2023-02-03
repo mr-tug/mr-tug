@@ -42,14 +42,13 @@
             margin: 20px auto;
             width: 250px;
         }
-        .time-block {
-            color: #000;
-            font-size: 1.1rem;
-            font-weight: bold;
-        }
         .mr-logo {
             height: 90px;
             width: 250px;
+        }
+        .person {
+            color: #000;
+            font-size: 1.1rem;
         }
         .section-title {
             color: darkblue;
@@ -61,25 +60,36 @@
             height: 15px;
             padding-right: 10px;
         }
+        .time-block {
+            color: #000;
+            font-size: 1.1rem;
+            font-weight: bold;
+        }
         @media screen and (max-width: 600px) {
+            body {
+                width: 100%;
+            }
             header {
                 font-size: 3.5rem;
             }
             .day-title {
                 font-size: 2rem;
             }
-            .time-block {
-                font-size: 2rem;
-            }
             .mr-logo {
                 height: 180px;
                 width: 500px;
+            }
+            .person {
+                font-size: 2rem;
             }
             .section-title {
                 font-size: 3rem;
             }
             .social-icon {
                 height: 30px;
+            }
+            .time-block {
+                font-size: 2rem;
             }
         }
     </style>
@@ -95,37 +105,37 @@
 
         <div class='day-title centered'>SUN</div>
         <div class='time-block'>6 PM - 8 PM</div>
-        <div>Christy Burke</div>
+        <div class='person'>Christy Burke</div>
 
         <div class='day-title'>MON</div>
         <div class='time-block'>10 AM - 12 PM</div>
-        <div>Danny Crossett</div>
+        <div class='person'>Danny Crossett</div>
         <br>
         <div class='time-block'>4 PM - 6 PM</div>
-        <div>Darlene Roth</div>
+        <div class='person'>Darlene Roth</div>
         
         <div class='day-title'>TUE</div>
         <div class='time-block'>8 AM - 10 AM</div>
-        <div>Paul Gilbertson</div>
+        <div class='person'>Paul Gilbertson</div>
         <br>
         <div class='time-block'>12 PM - 2 PM</div>
-        <div>Scott Lockwood</div>
+        <div class='person'>Scott Lockwood</div>
 
         <div class='day-title'>WED</div>
         <div class='time-block'>5 PM - 7 PM</div>
-        <div>Darlene Roth</div>
+        <div class='person'>Darlene Roth</div>
 
         <div class='day-title'>THU</div>
         <div class='time-block'>10 AM - 12 PM</div>
-        <div>Karen Phillips</div>
+        <div class='person'>Karen Phillips</div>
 
         <div class='day-title'>FRI</div>
         <div class='time-block'>2 PM - 4 PM</div>
-        <div>Donna Pearson</div>
+        <div class='person'>Donna Pearson</div>
 
         <div class='day-title'>SAT</div>
         <div class='time-block'>10 AM - 12 PM</div>
-        <div>Michael Rosenheim</div>
+        <div class='person'>Michael Rosenheim</div>
 
     </main>
     <footer class='centered'>
@@ -133,4 +143,3 @@
     </footer>
 </body>
 </html>
-
