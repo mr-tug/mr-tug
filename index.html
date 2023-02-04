@@ -51,6 +51,11 @@
             display: inline-block;
             vertical-align: top;
         }
+        .inline-title {
+            display: inline-block;
+            padding-right: 20px;
+            vertical-align: middle;
+        }
         .link-bar-link {
             color: blue;
             display: inline-block;
@@ -90,13 +95,16 @@
             font-weight: bold;
         }
         .mr-logo {
-            height: 90px;
-            width: 250px;
+            height: 55px;
+            width: 150px;
         }
         .m-right-15 {
             margin-right: 15px;
         }
-        .m-top-10 {
+        .m-top-3 {
+            margin-top: 3px;
+        }
+         .m-top-10 {
             margin-top: 10px;
         }
         .section-title {
@@ -119,17 +127,21 @@
 </head>
 <body>
     <header class='centered'>
-        <img alt='Mesa Regal logo' class='mr-logo' src='static/Mesa-Regal.png' />
-        <div>TECHNOLOGY USERS GROUP</div>
+        <div class='centered inline-title'>
+            <img alt='Mesa Regal logo' class='mr-logo' src='static/Mesa-Regal.png' />
+        </div>
+        <div class='m-top-3'>
+            TECHNOLOGY USERS GROUP
+        </div>
     </header>
     <main class='centered'>
  
         <div class='centered'>
             <div class='section-title' style='margin-top: 0px;'>Next Meeting:
-                <span class='meeting-title'>TBA</span>
+                <span class='meeting-title'>Cybersecurity</span>
             </div>
             <p class='meeting-schedule'>
-                Wed at 11:30am &bull; Feb 8, 2023 &bull; Royal Hall
+                Wed at 11:30am &bull; Feb 1, 2023 &bull; Royal Hall
             </p>
             <hr>
         </div>
@@ -276,7 +288,11 @@
         <div>
             <sup>*</sup> Includes earthlink.net, hotmail.com, live.com, live.ca, and msn.com
         </div>
-        
+        <div class='m-top-10'>
+            <a class='link-bar-link link-text' href='schedule.html'>
+                Lab Monitor Schedule
+            </a>
+        <div>
     </main>
     <footer class='centered'>
         <span class='disclaimer'>
