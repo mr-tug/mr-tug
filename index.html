@@ -94,10 +94,6 @@
             font-size: 1.1rem;
             font-weight: bold;
         }
-        .mr-logo {
-            height: 55px;
-            width: 150px;
-        }
         .m-right-15 {
             margin-right: 15px;
         }
@@ -106,6 +102,15 @@
         }
          .m-top-10 {
             margin-top: 10px;
+        }
+        .monitor-link {
+            color: darkblue;
+            font-size: 1.1rem;
+            text-decoration: none;
+        }
+        .mr-logo {
+            height: 55px;
+            width: 150px;
         }
         .section-title {
             font-size: 1.5rem;
@@ -124,6 +129,20 @@
         }
         */
     </style>
+    <script type='text/javascript'>
+        function getMeetingDetails() {
+
+            // GET NEXT MEETING TITLE
+            fetch("https://www.mesaregalcc.org/next-meeting-title.txt")
+                .then((response) => response.text())
+                .then((data) => document.getElementById("meeting_title").innerText = data);
+
+            // GET NEXT MEETING DATE, TIME, AND LOCATION
+            fetch("https://www.mesaregalcc.org/next-meeting-time.txt")
+                .then((response) => response.text())
+                .then((data) => document.getElementById("meeting_time").innerText = data);
+        }
+    </script>
 </head>
 <body>
     <header class='centered'>
@@ -138,11 +157,9 @@
  
         <div class='centered'>
             <div class='section-title' style='margin-top: 0px;'>Next Meeting:
-                <span class='meeting-title'>TBA</span>
+                <span class='meeting-title' id='meeting_title'></span>
             </div>
-            <p class='meeting-schedule'>
-                Wed at 11:30am &bull; Feb 8, 2023 &bull; Royal Hall
-            </p>
+            <p class='meeting-schedule' id='meeting_time'></p>
             <hr>
         </div>
 
@@ -289,7 +306,7 @@
             <sup>*</sup> Includes earthlink.net, hotmail.com, live.com, live.ca, and msn.com
         </div>
         <div class='m-top-10'>
-            <a class='link-bar-link link-text' href='schedule.html' target='_blank'>
+            <a class='monitor-link' href='schedule.html' target='_blank'>
                 Lab Monitor Schedule
             </a>
         <div>
