@@ -14,7 +14,6 @@
             width: 100%;
         }
         div {
-            line-height: normal;
             vertical-align: middle;
         }
         footer {
@@ -52,10 +51,6 @@
             display: inline-block;
             vertical-align: top;
         }
-        .inline-title {
-            display: inline-block;
-            vertical-align: middle;
-        }
         .link-bar-link {
             color: blue;
             display: inline-block;
@@ -84,6 +79,9 @@
         .m-top-10 {
             margin-top: 10px;
         }
+        .m-top-8-neg {
+            margin-top: -8px;
+        }
         .meeting-schedule {
             color: #751A03;
             font-size: 1.1rem;
@@ -106,8 +104,8 @@
             text-decoration: none;
         }
         .mr-logo {
-            height: 55px;
-            width: 150px;
+            height: 35px;
+            width: 67px;
         }
         .section-title {
             font-size: 1.5rem;
@@ -143,11 +141,11 @@
 </head>
 <body onload='getMeetingDetails()'>
     <header class='centered'>
-        <div class='centered inline-title'>
-            <img alt='Mesa Regal logo' class='mr-logo' src='static/Mesa-Regal.png' />
+        <div class='centered'>
+            <img alt='Mesa Regal logo' class='mr-logo' src='static/mr-logo.png' />
         </div>
-        <div>
-            TECHNOLOGY USERS GROUP
+        <div class='centered m-top-8-neg'>MESA REGAL</div>
+        <div class='centered m-top-8-neg'>TECHNOLOGY USERS GROUP</div>
         </div>
     </header>
     <main class='centered'>
