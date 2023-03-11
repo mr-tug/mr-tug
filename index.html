@@ -146,21 +146,22 @@
             fetch("https://www.mesaregalcc.org/next-meeting-title.txt")
                 .then((response) => response.text())
                 .then((data) => document.getElementById("meeting_title").innerText = data);
-
+/*
                 // RETURN 'TBA' IF NO DETAILS
                 if (document.getElementById("meeting_title").innerText == "") {
                     document.getElementById("meeting_title").innerText = "TBA");
                 }
-
+*/
             // GET NEXT MEETING DATE, TIME, AND LOCATION
             fetch("https://www.mesaregalcc.org/next-meeting-time.txt")
                 .then((response) => response.text())
                 .then((data) => document.getElementById("meeting_title").innerText = data);
-
+/*
                 // RETURN 'TBA' IF NO DETAILS
                 if (document.getElementById("meeting_time").innerText == "") {
                     document.getElementById("meeting_time").innerText = "TBA");
                 }
+*/
         }
     </script>
 </head>
