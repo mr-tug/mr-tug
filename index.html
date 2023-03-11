@@ -47,6 +47,17 @@
             max-width: 900px;
             text-align: center;
         }
+        .help-box {
+            background-color: rgba(255,0,0,0.05);
+            border: solid red 2px;
+            border-radius: 4px;
+            height: 40px;
+            line-height: 40px;
+            width: 180px;
+        }
+        .help-link {
+            color: red;
+        }
         .inline {
             display: inline-block;
             vertical-align: top;
@@ -60,7 +71,6 @@
         }
         .link-box {
             background-color: rgba(0,0,255,0.05);
-            /* background-color: rgba(255,204,170,0.2); */
             border: solid #aaa 1px;
             border-radius: 4px;
             height: 60px;
@@ -129,16 +139,34 @@
     </style>
     <script type='text/javascript'>
         function getMeetingDetails() {
+        
+            var details = ""
 
             // GET NEXT MEETING TITLE
             fetch("https://www.mesaregalcc.org/next-meeting-title.txt")
                 .then((response) => response.text())
-                .then((data) => document.getElementById("meeting_title").innerText = data);
+                .then((data) => details);
+                // .then((data) => document.getElementById("meeting_title").innerText = data);
+
+                // RETURN 'TBA' IF NO DETAILS
+                if (details == "") {
+                    document.getElementById("meeting_title").innerText = "TBA");
+                } else {
+                    document.getElementById("meeting_title").innerText = details);
+                }
 
             // GET NEXT MEETING DATE, TIME, AND LOCATION
             fetch("https://www.mesaregalcc.org/next-meeting-time.txt")
                 .then((response) => response.text())
-                .then((data) => document.getElementById("meeting_time").innerText = data);
+                .then((data) => details);
+                // .then((data) => document.getElementById("meeting_title").innerText = data);
+
+                // RETURN DETAILS IF FOUND IN FILE
+                if !((details == "") || (details == null)) {
+                    document.getElementById("meeting_time").innerTest = "TBA");
+                } else {
+                    document.getElementById("meeting_time").innerText = details);
+                }
         }
     </script>
 </head>
@@ -153,6 +181,16 @@
     </header>
 
     <main class='centered'>
+
+            <div>
+                <a link-text' href='https://www.mesaregalcc.org/lab-topics.html' target='_blank'>
+                    <div class='link-bar-link help-box'>
+                        <div class='help-link'>Printer &amp; Lab Tips</div>
+                    </div>
+                </a>
+            </div>
+            <div class='m-top-10'><div>
+
          <div class='centered'>
             <div class='section-title' style='margin-top: 0px;'>Next Meeting:
                 <span class='meeting-title' id='meeting_title'></span>
