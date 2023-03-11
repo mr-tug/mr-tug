@@ -53,7 +53,7 @@
             border-radius: 4px;
             height: 40px;
             line-height: 40px;
-            width: 180px;
+            width: 200px;
         }
         .help-link {
             color: red;
@@ -139,33 +139,27 @@
     </style>
     <script type='text/javascript'>
         function getMeetingDetails() {
-        
+
             var details = ""
 
             // GET NEXT MEETING TITLE
             fetch("https://www.mesaregalcc.org/next-meeting-title.txt")
                 .then((response) => response.text())
-                .then((data) => details);
-                // .then((data) => document.getElementById("meeting_title").innerText = data);
+                .then((data) => document.getElementById("meeting_title").innerText = data);
 
                 // RETURN 'TBA' IF NO DETAILS
-                if (details == "") {
+                if (document.getElementById("meeting_title").innerText == "") {
                     document.getElementById("meeting_title").innerText = "TBA");
-                } else {
-                    document.getElementById("meeting_title").innerText = details);
                 }
 
             // GET NEXT MEETING DATE, TIME, AND LOCATION
             fetch("https://www.mesaregalcc.org/next-meeting-time.txt")
                 .then((response) => response.text())
-                .then((data) => details);
-                // .then((data) => document.getElementById("meeting_title").innerText = data);
+                .then((data) => document.getElementById("meeting_title").innerText = data);
 
-                // RETURN DETAILS IF FOUND IN FILE
-                if !((details == "") || (details == null)) {
-                    document.getElementById("meeting_time").innerTest = "TBA");
-                } else {
-                    document.getElementById("meeting_time").innerText = details);
+                // RETURN 'TBA' IF NO DETAILS
+                if (document.getElementById("meeting_time").innerText == "") {
+                    document.getElementById("meeting_time").innerText = "TBA");
                 }
         }
     </script>
