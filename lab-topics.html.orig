@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel='icon' type='image/png' href='static/icons/mr-favicon.png'>
+    <title>MR TUG FAQs</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <style>
+        body {
+            background-color: #fca;
+            font-family: sans-serif;
+            height: 100%;
+            margin: 0 auto;
+            padding: 0;
+            width: 100%;
+        }
+        div {
+            vertical-align: middle;
+        }
+        footer {
+            background-color: #fca;
+            color: #777;
+            font-size: 1rem;
+            font-weight: normal;
+            padding: 20px;
+        }
+        header {
+            background-color: #fca;
+            color: #751A03;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        hr {
+            border: solid #aaa 1px;
+            margin: 30px auto 20px auto;
+            width: 50%;
+            max-width: 600px;
+        }
+        main {
+            background-color: #eee;
+            padding: 20px;
+            text-align: center;
+        }
+        .centered {
+            text-align: center;
+        }
+        .disclaimer {
+            max-width: 900px;
+            text-align: center;
+        }
+        .header-title {
+            padding: 20px;
+        }
+        .inline {
+            display: inline-block;
+            vertical-align: top;
+        }
+        .m-right-5 {
+            margin-right: 15px;
+        }
+        .m-top-10 {
+            margin-top: 10px;
+        }
+        .m-top-15 {
+            margin-top: 15px;
+        }
+        .main-content {
+            margin: 0 auto;
+            max-width: 900px;
+            text-align: left;
+        }
+        .monitor-link {
+            color: darkblue;
+            font-size: 1.1rem;
+            text-decoration: none;
+        }
+        .mr-logo {
+            height: 15px;
+            padding-right: 5px;
+        }
+        .review-date {
+            color: #751A03;
+            font-size: 1rem;
+            font-weight: bold;
+            margin: -20px auto 10px auto;
+            text-align: center;
+        }
+        .section-title {
+            color: #751A03;
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin: 20px auto 10px auto;
+            text-align: center;
+        }
+        .social-icon {
+            height: 15px;
+            padding-right: 10px;
+        }
+        .title-text {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin: 10px auto 20px auto;
+        }
+        .topic-block {
+            margin-top: 10px;
+        }
+        .topic-text {
+            color: black;
+            font-size: 1.05rem;
+            font-weight: normal;
+            margin: 10px auto;
+        }
+        .topic-title {
+            color: darkblue;
+            font-size: 1.25rem;
+            font-weight: bold;
+            margin-top: 0px;
+        }
+        /*
+        @media screen and (max-width: 600px) {
+            body {
+                font-size: 2rem;
+            }
+        }
+        */
+    </style>
+</head>
+<body>
+
+    <header class='centered'>
+        <div class='header-title'>
+            <img alt='Mesa Regal logo' class='mr-logo' src='static/icons/mr-logo-50.png'/>
+            MESA REGAL TUG
+        </div>
+    </header>
+
+    <main>
+        <div class='title-text'>
+            Computer Lab Topics
+        </div>
+        <div class='review-date'>
+            Last Reviewed Mar 01, 2023
+        </div>
+
+        <div class='main-content'>
+
+            <div class='topic-block'>
+                <div class='topic-title'>
+                    Computer lab hours
+                <div>
+                <div class='topic-text'>
+                    6 AM - 10 PM (daily)
+                </div>
+                <div class='topic-text'>
+                    Contact Courtesy Patrol if the center is not accessible.
+                </div>
+            </div>
+
+            <div class='topic-block'>
+                <div class='topic-title'>
+                    Lost and found, and items left behind
+                <div>
+                <div class='topic-text'>
+                    Personal items (phones, keys, hats, USB drives, cables, etc) are turned 
+                    into Guest Services when found by a computer center monitor.  We recommend
+                    labeling your items with a phone number.
+                </div>
+                <div class='topic-text'>
+                    Left behind printouts and documents &ndash; including bank statements,  
+                    airline passes, and tax forms &ndash; will be discarded when found by 
+                    a computer lab monitor. Retrieve your documents from the printers, 
+                    copiers, and scanners before leaving.
+                </div>
+            </div>
+
+            <div class='topic-block'>
+                <div class='topic-title'>
+                    Computer center etiquette
+                <div>
+                <div class='topic-text'>
+                    Please refrain from extended or loud talking, eating, or drinking while
+                    in the computer lab.  Use earbuds or headphones during YouTube videos
+                    and zoom sessions.
+                </div>
+                <div class='topic-text'>
+                    When finished using a computer, please tuck in your chair and leave
+                    your area straightened up.  Open Chrome so the TUG menu is displayed.
+                </div>
+            <div>
+
+            <div class='section-title'>
+                PRINTING
+            </div>
+
+            <div class='topic-block'>
+                <div class='topic-text'>
+                    The printers only accept 8&#189;&quot; x 11&quot; paper.  If a printer is out of 
+                    paper, check the unlocked drawers in the cabinets; if no paper is found, try asking 
+                    Activities.  If you want to be sure paper is available, bring your own.
+                </div>
+                <div class='topic-text'>
+                    Verify which printer is selected <b>before</b> clicking &quot;Print&quot;.
+                </div>
+            </divs>
+
+            <div class='topic-block'>
+                <div class='topic-title'>
+                    Outer Lab
+                </div>
+                <div class='topic-text'>
+                    <ul>
+                        <li>
+                            The &quot;Computer Lab Printer&quot; printer is the only one in the 
+                            outer lab, and gets all print jobs from outer lab computers.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class='topic-block'>
+                <div class='topic-title'>
+                    Inner Lab
+                </div>
+                <div class='topic-text'>
+                    <ul>
+                        <li>
+                            The &quot;Training Center Black/White M527&quot; printer is the default
+                            for all inner lab computers.  It is only reachable from inner lab
+                            computers, but also copies and scans (see next section).
+                        </li>
+                        </ul>
+                    <ul>
+                        <li>
+                            The &quot;HP LaserJet 500 Printer M551&quot; is the lab's only color
+                            printer and is reachable only from inner lab computers.  Tray 1 is 
+                            not operable, so make sure to read and follow the instructions on the 
+                            printer.
+                            <ul>
+                                <li>
+                                    If you send multiple copies or documents to this printer, 
+                                    you may have to respond to the printer message multiple
+                                    times.
+                                </li>
+                                <li>
+                                    If this printer was selected, it will remain selected until
+                                    changed back to the black/white M527 printer.
+                                </li>
+                                <li>
+                                    Please use the color printer only when printing a color
+                                    document.  Unnecessary use of the color printer increases
+                                    our costs and maintenance.
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class='topic-block'>
+                <div class='topic-title'>
+                    Mobile Printing
+                </div>
+                <div class='topic-text'>
+                    You cannot print directly from your phone, tablet, or other mobile device.  Either
+                    save your document to a USB drive or email it to yourself, then use a lab computer
+                    to print the file.  You can also connect your phone or tablet to a lab computer
+                    with a USB dongle (connector), then print the file same as any other USB drive.
+                </div>
+                <div class='topic-text'>
+                    If you email it, make sure to bring your phone to the lab in case logging into your 
+                    online account requires getting a text or otherwise using your phone.
+                </div>
+            </div>
+
+            <div class='section-title'>
+                SCANNING
+            </div>
+
+            <div class='topic-block'>
+                <div class='topic-text'>
+                    The scanner is in the corner of the inner lab, next to the copier.  Follow the
+                    instructions on top of the scanner; it only works with the adjacent computer.
+                </div>
+                <div class='topic-text'>
+                    Delete any scans from the computer when finished; empty the recycle bin if
+                    the scanned items have personal information.  Remember to remove your items
+                    from the scanner.
+                </div>
+            <div>
+
+            <div class='section-title'>
+                OTHER TOPICS
+            </div>
+
+            <div class='topic-block'>
+                <div class='topic-title'>
+                    Clearing history and files
+                </div>
+                <div class='topic-text'>
+                    When finished, close and reopen Chrome.  This clears your history and 
+                    cookies, plus signs you out of any accounts you accessed.
+                </div>
+                <div class='topic-text'>
+                    If you downloaded any files, restart the computer and reopen Chrome.
+                    This leaves the computer like you never used it.
+                </div>
+            </div>
+
+            <div class='topic-block'>
+                <div class='topic-title'>
+                    Ethernet connections
+                <div>
+                <div class='topic-text'>
+                    There are ethernet cables in both labs, and these provide faster and 
+                    presumably safer internet access.  If your computer does not have an RJ45
+                    (oversized phone jack) port, you should be able to buy USB adapters wherever 
+                    computer accessories are sold.
+                </div>
+                <div class='topic-text'>
+                    You can print to all the lab printers when connected via ethernet, but you
+                    might need to first add them to your settings.
+                </div>
+            </div>
+
+            <div class='topic-block'>
+                <div class='topic-title'>
+                    For more information
+                <div>
+                <div class='topic-text'>
+                    See a lab monitor or refer to the expanded documentation in the orange binders 
+                    near the outer lab's printer or the inner lab's color printer.
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class='centered'>
+            <div class='m-top-10'>
+                <a class='monitor-link' href='schedule.html' target='_blank'>
+                    Lab Monitor Schedule
+                </a>
+            </div>
+            <div class='m-top-15'>
+                <div class='inline m-right-5'>
+                    <a href='https://www.facebook.com/groups/1330270493985463' target='_blank'>
+                        <img alt='Facebook logo' class='social-icon' src='static/icons/facebook-50.png'>
+                    </a>
+                </div>
+                <div class='inline'>
+                    <a href='https://www.youtube.com/@mesaregalt.u.g.6355' target='_blank'>
+                        <img alt='YouTube logo' class='social-icon' src='static/icons/youtube-50.png'>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class='centered'>
+        <span class='disclaimer'>
+            This site is a free service of the Mesa Regal Technology Users Group<br>
+            and is separate from the Mesa Regal RV Resort or Cal-Am Resorts.<br>
+            Please use it for your own convenience and at your own risk.<br>
+        </span>
+        <div class='m-top-10'>
+            &copy; <script>document.write(new Date().getFullYear());</script> &bull; Mesa Regal Technology Users Group
+        </div>
+    </footer>
+
+</body>
+</html>
