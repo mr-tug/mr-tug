@@ -1,0 +1,55 @@
+header-topics {
+    background-color: #fca;
+    color: #751A03;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+hr-topics {
+    border: solid #aaa 1px;
+    margin: 30px auto 20px auto;
+    width: 50%;
+    max-width: 600px;
+}
+.header-title {
+    padding: 20px;
+}
+.main-content {
+    margin: 0 auto;
+    max-width: 900px;
+    text-align: left;
+}
+.mr-logo-small {
+    height: 15px;
+    padding-right: 5px;
+}
+.review-date {
+    color: #751A03;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: -20px auto 10px auto;
+    text-align: center;
+}
+.section-title-topics {
+    color: #751A03;
+    margin: 10px 0px 20px 0px;
+}
+.title-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0px auto 20px auto;
+}
+.topic-block {
+    margin-top: 10px;
+}
+.topic-text {
+    color: black;
+    font-size: 1.05rem;
+    font-weight: normal;
+    margin: 10px auto;
+}
+.topic-title {
+    color: darkblue;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 0px;
+}
