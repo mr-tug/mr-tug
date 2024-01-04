@@ -10,137 +10,137 @@ div {
     vertical-align: middle;
 }
 footer {
-            background-color: #fca;
-            color: #777;
-            font-size: 1rem;
-            font-weight: normal;
-            padding: 20px;
-        }
-        header {
-            background-color: #fca;
-            color: #751A03;
-            font-size: 1.75rem;
-            font-weight: bold;
-            padding: 20px;
-        }
-        hr {
-            border: solid #aaa 1px;
-            margin-top: 20px;
-            width: 50%;
-            max-width: 600px;
-        }
-        main {
-            background-color: #eee;
-            padding: 20px;
-        }
-        .centered {
-            text-align: center;
-        }
-        .disclaimer {
-            max-width: 900px;
-            text-align: center;
-        }
-        .help-box {
-            background-color: rgba(255,0,0,0.05);
-            border: solid red 2px;
-            border-radius: 4px;
-            height: 40px;
-            line-height: 40px;
-            margin: 10px auto 5px auto;
-            width: 200px;
-        }
-        .help-link {
-            color: red;
-        }
-        .inline {
-            display: inline-block;
-            vertical-align: top;
-        }
-        .link-bar-link {
-            color: blue;
-            display: inline-block;
-            font-size: 1.4rem;
-            padding-right: 5px;
-            white-space: nowrap;
-        }
-        .link-box {
-            background-color: rgba(0,0,255,0.05);
-            border: solid #aaa 1px;
-            border-radius: 4px;
-            height: 60px;
-            line-height: 60px;
-            width: 180px;
-        }
-        .link-box:hover {
-            background-color: rgba(255,0,0,0.15);
-        }
-        .link-text {
-            text-decoration: none;
-        }
-        .m-right-15 {
-            margin-right: 15px;
-        }
-        .m-top-5 {
-            margin-top: 5px;
-        }
-        .m-top-10 {
-            margin-top: 10px;
-        }
-        .m-top-3-neg {
-            margin-top: -5px;
-        }
-        .meeting-schedule {
-            color: #751A03;
-            font-size: 1.1rem;
-            font-weight: bold;
-            margin-top: -20px;
-        }
-        .meeting-title {
-            color: darkblue;
-            font-size: 1.5rem;
-            font-weight: bold;
-        }
-        .meeting-text {
-            color: #000;
-            font-size: 1.1rem;
-            font-weight: bold;
-        }
-        .monitor-link {
-            color: darkblue;
-            font-size: 1.1rem;
-            text-decoration: none;
-        }
-        .mr-logo {
-            height: 28px;
-            width: 54px;
-        }
-        .notice-block {
-            margin-bottom: 5px;
-            text-align: center;
-        }
-        .notice-title {
-            color: darkblue;
-            font-size: 1.5rem;
-            font-weight: bold;
-        }
-        .notice-subtitle {
-            color: #751A03;
-            font-size: 1.1rem;
-            font-weight: bold;            
-        }
-        .section-title {
-            font-size: 1.5rem;
-            font-weight: bold;
-            margin: 10px 0px 20px 0px;
-        }
-        .social-icon {
-            height: 15px;
-            padding-right: 10px;
-        }
-        /*
-        @media screen and (max-width: 600px) {
-            body {
-                font-size: 2rem;
-            }
-        }
-        */
+    background-color: #fca;
+    color: #777;
+    font-size: 1rem;
+    font-weight: normal;
+    padding: 20px;
+}
+header {
+    background-color: #fca;
+    color: #751A03;
+    font-size: 1.75rem;
+    font-weight: bold;
+    padding: 20px;
+}
+hr {
+    border: solid #aaa 1px;
+    margin-top: 20px;
+    width: 50%;
+    max-width: 600px;
+}
+main {
+    background-color: #eee;
+    padding: 20px;
+}
+.centered {
+    text-align: center;
+}
+.disclaimer {
+    max-width: 900px;
+    text-align: center;
+}
+.help-box {
+    background-color: rgba(255,0,0,0.05);
+    border: solid red 2px;
+    border-radius: 4px;
+    height: 40px;
+    line-height: 40px;
+    margin: 10px auto 5px auto;
+    width: 200px;
+}
+.help-link {
+    color: red;
+}
+.inline {
+    display: inline-block;
+    vertical-align: top;
+}
+.link-bar-link {
+    color: blue;
+    display: inline-block;
+    font-size: 1.4rem;
+    padding-right: 5px;
+    white-space: nowrap;
+}
+.link-box {
+    background-color: rgba(0,0,255,0.05);
+    border: solid #aaa 1px;
+    border-radius: 4px;
+    height: 60px;
+    line-height: 60px;
+    width: 180px;
+}
+.link-box:hover {
+    background-color: rgba(255,0,0,0.15);
+}
+.link-text {
+    text-decoration: none;
+}
+.m-right-15 {
+    margin-right: 15px;
+}
+.m-top-5 {
+    margin-top: 5px;
+}
+.m-top-10 {
+    margin-top: 10px;
+}
+.m-top-3-neg {
+    margin-top: -5px;
+}
+.meeting-schedule {
+    color: #751A03;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: -20px;
+}
+.meeting-title {
+    color: darkblue;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.meeting-text {
+    color: #000;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.monitor-link {
+    color: darkblue;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+.mr-logo {
+    height: 28px;
+    width: 54px;
+}
+.notice-block {
+    margin-bottom: 5px;
+    text-align: center;
+}
+.notice-title {
+    color: darkblue;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.notice-subtitle {
+    color: #751A03;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.section-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 10px 0px 20px 0px;
+}
+.social-icon {
+    height: 15px;
+    padding-right: 10px;
+}
+/*
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 2rem;
+    }
+}
+*/
