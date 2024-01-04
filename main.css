@@ -63,9 +63,6 @@ main {
     padding-right: 5px;
     white-space: nowrap;
 }
-.link-bar-link-small {
-    font-size: 1.2rem;
-}
 .link-box {
     background-color: rgba(0,0,255,0.05);
     border: solid #aaa 1px;
@@ -79,6 +76,9 @@ main {
 }
 .link-text {
     text-decoration: none;
+}
+.link-text-1p2 {
+    font-size: 1.2rem;
 }
 .m-right-15 {
     margin-right: 15px;
