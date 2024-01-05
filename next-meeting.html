@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel='icon' type='image/png' href='static/icons/mr-favicon.png'>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <title>Mesa Regal TUG</title>
+
+    <script type='text/javascript'>
+        function getMeetingDetails() {
+
+            var details = ""
+
+            // GET NEXT MEETING TITLE
+            fetch("https://www.mesaregalcc.org/next-meeting-title.txt")
+                .then((response) => response.text())
+                .then((data) => document.getElementById("meeting_title").innerText = data);
+/*
+                // RETURN 'TBA' IF NO DETAILS
+                if (document.getElementById("meeting_title").innerText == "") {
+                    document.getElementById("meeting_title").innerText = "TBA");
+                }
+*/
+            // GET NEXT MEETING DATE, TIME, AND LOCATION
+            fetch("https://www.mesaregalcc.org/next-meeting-time.txt")
+                .then((response) => response.text())
+                .then((data) => document.getElementById("meeting_time").innerText = data);
+/*
+                // RETURN 'TBA' IF NO DETAILS
+                if (document.getElementById("meeting_time").innerText == "") {
+                    document.getElementById("meeting_time").innerText = "TBA");
+                }
+*/
+        }
+    </script>
+
+</head>
+<body onload='getMeetingDetails()'>
+
+    <header class='centered'>
+        <div class='centered'>
+            <img alt='Mesa Regal logo' class='mr-logo' src='static/icons/mr-logo.png' />
+        </div>
+        <div class='centered m-top-3-neg'>MESA REGAL</div>
+        <div class='centered m-top-3-neg'>TECHNOLOGY USERS GROUP</div>
+    </header>
+
+    <main class='centered'>
+
+        <div class='m-top-10'><div>
+
+        <!-- NEXT MEETING NOTICE -->
+        <div class='centered'>
+            <div class='section-title' style='margin-top: 0px;'>Next Meeting</div>
+            <p class='meeting-title' id='meeting_title'></p>
+            <p class='meeting-schedule m-top-5' id='meeting_time'></p>
+            <hr>
+        </div>
+
+        <div class='m-top-10'>
+
+            <hr>
+<!--
+            <a class='monitor-link' href='schedule.html' target='_blank'>
+            Lab Monitor Schedule
+            </a>
+-->
+            <div class='notice-title'>Computer Monitor Schedule</div>
+            <div class='notice-subtitle'>Mon - Fri &bull; 8:30 am - 4:00 pm</div>
+            <div>(Seasonal)</div>
+        </div>
+    </main>
+
+    <footer class='centered'>
+        <div>
+            This site is a free service of the Mesa Regal Technology Users Group<br>
+            and is separate from the Mesa Regal RV Resort or Cal-Am Resorts.<br>
+            Please use it for your own convenience and at your own risk.<br>
+        </div>
+        <div class='m-top-10'>
+            All lettermarks, logos, and trademarks are property of their respective owners.<br>
+        </div>
+        <div class='m-top-10'>
+            &copy; <script>document.write(new Date().getFullYear());</script> &bull; Mesa Regal Technology Users Group
+        </div>
+    </footer>
+
+</body>
+</html>
