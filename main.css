@@ -80,6 +80,9 @@ main {
 .link-text-1p2 {
     font-size: 1.2rem;
 }
+.m-bottom-10 {
+    margin-bottom: 10px;
+}
 .m-right-5 {
     margin-right: 15px;
 }
@@ -94,6 +97,9 @@ main {
 }
 .m-top-15 {
     margin-top: 15px;
+}
+.m-top-20 {
+    margin-top: 20px;
 }
 .m-top-3-neg {
     margin-top: -5px;
